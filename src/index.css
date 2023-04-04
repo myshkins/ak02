@@ -6,9 +6,12 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  --default-text-color: #858bfb;
-  --link-color: #85dbfb;
-  --link-hover-color: #55b4d7;
+  --tropical: #858bfb;
+  --tropical-light: #B8BCFD;
+  --peach: #FB8389;
+  --peach-light: #FDC1C4;
+  --aqua: #84EFFA;
+  --aqua-light: #CBFDF9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,12 +40,12 @@ html {
 
 a {
   font-weight: 500;
-  color: var(--link-color);
+  color: var(--aqua);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  color: var(--aqua-light);
 }
 
 h1 {

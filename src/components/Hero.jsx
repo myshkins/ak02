@@ -1,7 +1,8 @@
+import './Hero.css'
 import Selfie from '../assets/pixel-selfie.png'
 const Hero = (props) => {
     return (
-        <div>
+        <div className='hero'>
             <img className='selfie' src={Selfie}/>
             <div className='hero-text'>
                 Hey, I'm Alex Krenitsky, a NYC public school teacher turned 
@@ -13,7 +14,7 @@ const Hero = (props) => {
                 So let me know if you like anything that you see! Click on the 
                 links below to see the apps where they are hosted.
             </div>
-            {props.children}
+        {props.children}
         </div>
     )
 }

@@ -1,0 +1,18 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+.project-card-inner {
+  display: flex;
+  flex-direction: row;
+  border: solid blue 1px;
+  width: clamp(650px, 45vw, 1000px)
+}
+
+.project-card-img {
+  width: 50%;
+}
+
+.project-card-text {
+  width: 50%;
+}

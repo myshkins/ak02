@@ -1,0 +1,27 @@
+.skills-box {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: clamp(300px, 30vw, 400px);
+    border: dotted 1px lightgray;
+    gap: .3rem;
+}
+
+.skills-header {
+    width: 100%;
+}
+
+.skills-header-tag {
+    border: solid 1px var(--aqua);
+    width: fit-content;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.skill-tag {
+    border: solid 1px var(--peach);
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+}

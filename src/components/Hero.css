@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.selfie {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-text {
+  width: 400px;
+}
