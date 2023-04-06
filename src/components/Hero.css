@@ -1,14 +1,21 @@
 .hero {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  align-items: start;
+  margin: 4rem auto 0;
+}
+
+.selfie-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .selfie {
   width: 200px;
-  height: 200px;
 }
 
 .hero-text {
-  width: 400px;
+  width: clamp(200px, 25vw, 400px);
+  margin: 0 3rem 1rem;
 }

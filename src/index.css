@@ -5,13 +5,14 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #2d2d35;
+  --bg-color: #2d2d35;
   --tropical: #858bfb;
   --tropical-light: #B8BCFD;
-  --peach: #FB8389;
-  --peach-light: #FDC1C4;
-  --aqua: #84EFFA;
-  --aqua-light: #CBFDF9;
+  --peach: #c16267;
+  --peach-light: #d3a1a3;
+  --aqua: #6bc1ca;
+  --aqua-light: #97bebb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

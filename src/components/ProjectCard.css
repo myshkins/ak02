@@ -1,18 +1,15 @@
 .project-card {
-    display: flex;
-    flex-direction: column;
+  /* border: solid 1px #9c9ca3; */
+  background-color: #494d55;
+  /* background-color: #242424; */
+  /* background-color: var(--bg-color); */
+  padding: 1rem;
+  /* width: clamp(400px, 30vw, 800px); */
 }
-.project-card-inner {
-  display: flex;
-  flex-direction: row;
-  border: solid blue 1px;
-  width: clamp(650px, 45vw, 1000px)
-}
+
 
 .project-card-img {
+  float: left;
   width: 50%;
-}
-
-.project-card-text {
-  width: 50%;
+  margin-right: 1rem;
 }

@@ -36,6 +36,17 @@ const blurbs = {
     <a href="https://blog.ak0.io">here</a>,
     " or see the ",
     <a href="https://github.com/myshkins/ak0_blog">Github repo</a>, "."
+  ],
+  etch: [
+    `Here is a fun little drawing app created with JavaScript, CSS, and HTML. 
+    In this app a user only needs to move their mouse to draw on the screen. 
+    Users can also choose the dimensions of the grid (ie. the resolution), as 
+    well as the color of the pen. Clicking the rainbow button allows the pen or 
+    the grid to be drawn in a rainbow of colors. Click `,
+    <a href="https://etch.ak0.io">here</a>,
+    " to see the app or the ",
+    <a href="https://github.com/myshkins/etch_sketch">Github repo</a>,
+    "."
   ]
 }
 

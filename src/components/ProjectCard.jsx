@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
         <h2>{props.title}</h2>
       <div className="project-card-inner">
         <img className="project-card-img" src={props.img} />
-        <div className="project-card-text">{props.text}</div>
+        {props.text}
       </div>
     </div>
   );

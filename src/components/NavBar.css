@@ -1,10 +1,12 @@
 .navbar {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .logo {
+  margin-left: 3rem;
   width: clamp(15px, 18vw, 121px);
   will-change: filter;
   transition: filter 300ms;
