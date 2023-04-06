@@ -6,7 +6,7 @@ const Hero = (props) => {
       <div className="selfie-wrap">
         <img className="selfie" src={Selfie} />
       </div>
-      <div className="hero-text">
+      <div className="hero-desktop-text">
         Hey, I'm Alex Krenitsky, a NYC public school teacher turned software
         developer. Here you can find a collection of projects that I've created.
         I get a lot of joy out of making new things and learning new things, and

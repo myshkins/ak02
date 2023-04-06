@@ -8,23 +8,14 @@
 .logo {
   margin-left: 3rem;
   width: clamp(15px, 18vw, 121px);
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  margin-left: auto;
+  flex-direction: column;
   margin-right: 2rem;
   gap: 1rem;
 }
+
 
