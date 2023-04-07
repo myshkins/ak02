@@ -2,7 +2,7 @@
   padding: 1rem;
   border-radius: 6px;
   width: clamp(350px, 30vw, 500px);
-  height: fit-content;
+  height: 100%;
   transition: all .1s ease-in;
   color: white;
 }
