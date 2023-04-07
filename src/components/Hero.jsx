@@ -8,10 +8,8 @@ const Hero = (props) => {
       </div>
       <div className="hero-desktop-text">
         Hey, I'm Alex Krenitsky, a NYC public school teacher turned software
-        developer. Here you can find a collection of projects that I've created.
-        I get a lot of joy out of making new things and learning new things, and
-        I'm continuously looking to learn more. So let me know if you like
-        anything that you see!
+        developer. These are the things I've built. I'm always eager to connect
+        , so let me know if you like anything that you see!
       </div>
       {props.children}
     </div>

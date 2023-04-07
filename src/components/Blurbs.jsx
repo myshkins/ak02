@@ -3,9 +3,9 @@ const blurbs = {
     `My brother and I wanted to collaborate on a project, and us both being 
     environmentalists at heart, we decided to build an air quality monitoring 
     app. The end goal is to create a platform where users can compare air 
-    quality measurments they personally took with air quality data provided by 
+    quality measurements they personally took with air quality data provided by 
     government agencies. We first started with building the data pipeline and 
-    data visualization tool that you see linked here. We opted to use Apache 
+    data visualization tool that you see linked here. We used Apache 
     Airflow to orchestrate our ELT data pipeline. Our api is built with FastAPI, 
     and the front end is rendered with React. Click `, 
     <a href="https://airboo.ak0.io">here</a>,

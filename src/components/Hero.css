@@ -8,13 +8,28 @@
 .selfie-wrap {
   display: flex;
   flex-direction: column;
+  margin-left: 1rem;
 }
 
 .selfie {
-  width: 200px;
+  width: 140px;
 }
 
-.hero-text {
-  width: clamp(200px, 25vw, 400px);
-  margin: 0 3rem 1rem;
+.hero-desktop-text {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-desktop-text {
+    display: block;
+    width: clamp(15rem, 30vw, 18rem);
+    margin: 0 clamp(1rem, 3vw, 3rem) 1rem;
+  }
+
+  .selfie-wrap {
+    margin-left: auto;
+  }
+  .selfie {
+    width: clamp(10rem, 15vw, 11rem)
+  }
 }

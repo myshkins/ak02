@@ -4,7 +4,7 @@ const SkillsBox = (props) => {
   return (
     <>
       <div className="skills-box">
-        <div className="skills-header-tag">Skills</div>
+        <div className="skill-tag skills-header-tag">Skills</div>
         <div className="skill-tag">Python</div>
         <div className="skill-tag">Javascript</div>
         <div className="skill-tag">React</div>
@@ -18,9 +18,9 @@ const SkillsBox = (props) => {
         <div className="skill-tag">SQLAlchemy</div>
         <div className="skill-tag">Git</div>
         <div className="skill-tag">Pandas</div>
+        <div className="skill-tag">Github Actions</div>
         <div className="skill-tag">Pytest</div>
         <div className="skill-tag">Jest</div>
-        <div className="skill-tag">Github Actions</div>
         <div className="skill-tag">Linux</div>
       </div>
     </>
