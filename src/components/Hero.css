@@ -22,8 +22,8 @@
 @media screen and (min-width: 768px) {
   .hero-desktop-text {
     display: block;
-    width: clamp(15rem, 30vw, 18rem);
-    margin: 0 clamp(1rem, 3vw, 3rem) 1rem;
+    width: clamp(15rem, 35vw, 20rem);
+    margin: 0 clamp(1rem, 5vw, 6rem) 2.5rem;
   }
 
   .selfie-wrap {
