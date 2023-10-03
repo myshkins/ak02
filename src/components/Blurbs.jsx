@@ -14,19 +14,20 @@ const blurbs = {
     ` for this project.`
   ],
   petwatch: [
-    `The inspiration for this project came from Chancho the chinchilla. He's a 
+    `*UPDATED: This project was previously written in Python, but as an exercise
+    I rewrote it in Go! Checkout the new version :)
+    The inspiration for this project came from Chancho the chinchilla. He's a 
     15 year old chinchilla who is very particular about the climate around him. 
     Chinchillas generally don't tolerate temperatures outside the range of 60-75 
     degrees Farenheit. Thus, I created this app as a way to monitor the 
     temperature of the apartment when my partner and I are away. I used a 
     Raspberry Pi with a temperature sensor to get the temperature data, which 
     is then posted to my database via my api. The app then pulls the data to 
-    render a webpage with a view of the data. The tech stack includes Flask, 
-    Postgres, MySQLAlchemy, Docker, Gunicorn, and Nginx. It's deployed on my 
-    personal VPS. Click `,
-    <a href="https://pet-watch.ak0.io">here</a>,
+    render a webpage with a view of the data. The tech stack includes Go, Gin, 
+    MYSQL, Docker, and Nginx. It's deployed on my personal VPS. Click `,
+    <a href="https://gopetwatch.ak0.io">here</a>,
     ` to see the app, or the `,
-    <a href="https://github.com/myshkins/pet-watch">Github repo</a>,
+    <a href="https://github.com/myshkins/gopetwatch">Github repo</a>,
     ` for this project.`
   ],
   blog: [

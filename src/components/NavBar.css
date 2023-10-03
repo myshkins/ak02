@@ -34,6 +34,6 @@
 
 @media screen and (min-width: 768px) {
   .logo {
-    height: clamp(90px, 17vh, 170px)
+      height: clamp(90px, 17gitvh, 170px)
   }
 }

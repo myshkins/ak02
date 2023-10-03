@@ -21,7 +21,7 @@ function App() {
       </Hero>
       <Projects>
         <ProjectCard link="https://airboo.ak0.io" title={"airboo"} img={AirbooPic} text={blurbs.airboo} />
-        <ProjectCard link="https://pet-watch.ak0.io" title={"pet-watch"} img={PetWatchPic} text={blurbs.petwatch} />
+        <ProjectCard link="https://gopetwatch.ak0.io" title={"pet-watch"} img={PetWatchPic} text={blurbs.petwatch} />
         <ProjectCard link="https://blog.ak0.io" title={"my blog"} img={BlogPic} text={blurbs.blog} />
         <ProjectCard link="https://etch.ak0.io" title={"etch-a-sketch"} img={EtchPic} text={blurbs.etch} />
       </Projects>
