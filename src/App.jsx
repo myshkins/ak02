@@ -1,11 +1,5 @@
-import { useState } from "react";
-
 import "./App.css";
 import blurbs from './components/Blurbs'
-import AirbooPic from "./assets/project_pics/screenshot-airboo.jpg";
-import BlogPic from './assets/project_pics/screenshot-blog.jpg'
-import EtchPic from './assets/project_pics/screenshot-etch.jpg'
-import PetWatchPic from "./assets/project_pics/screenshot-temp.jpg"
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import SkillsBox from "./components/SkillsBox";
@@ -20,10 +14,31 @@ function App() {
         <SkillsBox />
       </Hero>
       <Projects>
-        <ProjectCard link="https://airboo.ak0.io" title={"airboo"} img={AirbooPic} text={blurbs.airboo} />
-        <ProjectCard link="https://gopetwatch.ak0.io" title={"pet-watch"} img={PetWatchPic} text={blurbs.petwatch} />
-        <ProjectCard link="https://blog.ak0.io" title={"my blog"} img={BlogPic} text={blurbs.blog} />
-        <ProjectCard link="https://etch.ak0.io" title={"etch-a-sketch"} img={EtchPic} text={blurbs.etch} />
+        <ProjectCard
+          link="https://jupiter.ak0.io"
+          title={"jupiter coffee"}
+          img="https://ak0-io.us-east-1.linodeobjects.com/screenshot-jupiter.webp"
+          text={blurbs.jupiter} />
+        <ProjectCard
+          link="https://airboo.ak0.io"
+          title={"airboo"}
+          img="https://ak0-io.us-east-1.linodeobjects.com/screenshot-airboo.webp"
+          text={blurbs.airboo} />
+        <ProjectCard
+          link="https://gopetwatch.ak0.io"
+          title={"pet-watch"}
+          img="https://ak0-io.us-east-1.linodeobjects.com/screenshot-petwatch.webp"
+          text={blurbs.petwatch} />
+        <ProjectCard
+          link="https://blog.ak0.io"
+          title={"my blog"}
+          img="https://ak0-io.us-east-1.linodeobjects.com/screenshot-blog.webp"
+          text={blurbs.blog} />
+        <ProjectCard
+          link="https://etch.ak0.io"
+          title={"etch-a-sketch"}
+          img="https://ak0-io.us-east-1.linodeobjects.com/screenshot-etch.webp"
+          text={blurbs.etch} />
       </Projects>
     </div>
   );
