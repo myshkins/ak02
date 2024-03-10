@@ -35,12 +35,15 @@ const blurbs = {
   jupiter: [
     `Work In Progress! An exercise in all things front end. I wanted to show the
     world that I too can center a div. jk. This was more about learning how to
-    build an SPA that's responsive, server side rendered, and (at least somewhat)
-    nice looking. So stop on by this cute `,
+    build an SPA that's responsive, server side generated, and (at least somewhat)
+    nice looking. I based this fictional coffee shop website loosely on Blue Bottle
+    Coffee's website. Next steps are to add more pages and a guest user login. But,
+    hey, in the meantime, stop on by this cute `,
     <a href="https://jupiter.ak0.io">lil internet cafe</a>,
-    `and grab yourself a fancy $20 coffee. It'll be a nice experience for you on
-    any device.`,
+    ` and grab yourself a fancy $20 coffee. It'll be a nice experience for you on
+    any device. And here's the `,
     <a href="https://github.com/myshkins/koffee2">Github repo</a>,
+    `.`,
   ],
   petwatch: [
     `*UPDATED: This project was previously written in Python, but as an exercise
